@@ -1,0 +1,11 @@
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\bin\Debug\apiexamen.dll.config
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\bin\Debug\apiexamen.dll
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\bin\Debug\apiexamen.pdb
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\obj\Debug\apiexamen.csproj.AssemblyReference.cache
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\obj\Debug\apiexamen.csproj.CoreCompileInputs.cache
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\obj\Debug\apiexamen.dll
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\obj\Debug\apiexamen.pdb
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\bin\Debug\WsApiexamen.dll
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\bin\Debug\WsApiexamen.pdb
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\bin\Debug\WsApiexamen.dll.config
+C:\Users\OchoaToo\source\repos\WsApiexamen\apiexamen\obj\Debug\apiexamen.csproj.CopyComplete

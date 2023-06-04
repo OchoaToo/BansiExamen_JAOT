@@ -1,0 +1,7 @@
+C:\Users\OchoaToo\source\repos\WsApiexamen\WsApiexamen\bin\WsApiexamen.dll.config
+C:\Users\OchoaToo\source\repos\WsApiexamen\WsApiexamen\bin\WsApiexamen.dll
+C:\Users\OchoaToo\source\repos\WsApiexamen\WsApiexamen\bin\WsApiexamen.pdb
+C:\Users\OchoaToo\source\repos\WsApiexamen\WsApiexamen\obj\Debug\WsApiexamen.csproj.AssemblyReference.cache
+C:\Users\OchoaToo\source\repos\WsApiexamen\WsApiexamen\obj\Debug\WsApiexamen.csproj.CoreCompileInputs.cache
+C:\Users\OchoaToo\source\repos\WsApiexamen\WsApiexamen\obj\Debug\WsApiexamen.dll
+C:\Users\OchoaToo\source\repos\WsApiexamen\WsApiexamen\obj\Debug\WsApiexamen.pdb

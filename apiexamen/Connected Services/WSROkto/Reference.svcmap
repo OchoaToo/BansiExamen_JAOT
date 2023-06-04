@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="689ddd21-2bd1-4b60-bdb1-5872e034d39d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50703/WSOkto.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WebServiceOkto.wsdl" MetadataType="Wsdl" ID="d00c7bd6-8a51-47e9-96ee-391fc8756047" SourceId="1" SourceUrl="http://localhost:50703/WSOkto.svc?wsdl" />
+    <MetadataFile FileName="WSOkto.xsd" MetadataType="Schema" ID="7a2dee91-3711-492f-b96b-41192d3f7151" SourceId="1" SourceUrl="http://localhost:50703/WSOkto.svc?xsd=xsd3" />
+    <MetadataFile FileName="WSOkto1.xsd" MetadataType="Schema" ID="50fc6884-f5de-4600-9b88-6b0d622dbb43" SourceId="1" SourceUrl="http://localhost:50703/WSOkto.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSOkto.disco" MetadataType="Disco" ID="dbaf7331-7e1c-4bc9-8d11-f5f458b27776" SourceId="1" SourceUrl="http://localhost:50703/WSOkto.svc?disco" />
+    <MetadataFile FileName="WSOkto2.xsd" MetadataType="Schema" ID="709dd8bc-f6d0-45d5-ad66-2427591efc8d" SourceId="1" SourceUrl="http://localhost:50703/WSOkto.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSOkto3.xsd" MetadataType="Schema" ID="3a50d887-4297-4659-83e0-2b46d53f3dd4" SourceId="1" SourceUrl="http://localhost:50703/WSOkto.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

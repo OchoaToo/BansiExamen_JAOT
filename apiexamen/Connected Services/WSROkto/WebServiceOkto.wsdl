@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="WebServiceOkto" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50703/WSOkto.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50703/WSOkto.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50703/WSOkto.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:50703/WSOkto.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WsApiexamen" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWSOkto_AgregarExamen_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarExamen" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_AgregarExamen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarExamenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_GetTblExamens_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblExamens" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_GetTblExamens_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblExamensResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_ConsultarExamen_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarExamen" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_ConsultarExamen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarExamenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_EliminarExamen_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarExamen" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_EliminarExamen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarExamenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_ActualizarExamen_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarExamen" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_ActualizarExamen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarExamenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_ConsultarExamenbyId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarExamenbyId" />
+  </wsdl:message>
+  <wsdl:message name="IWSOkto_ConsultarExamenbyId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarExamenbyIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWSOkto">
+    <wsdl:operation name="AgregarExamen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSOkto/AgregarExamen" message="tns:IWSOkto_AgregarExamen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSOkto/AgregarExamenResponse" message="tns:IWSOkto_AgregarExamen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTblExamens">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSOkto/GetTblExamens" message="tns:IWSOkto_GetTblExamens_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSOkto/GetTblExamensResponse" message="tns:IWSOkto_GetTblExamens_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarExamen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSOkto/ConsultarExamen" message="tns:IWSOkto_ConsultarExamen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSOkto/ConsultarExamenResponse" message="tns:IWSOkto_ConsultarExamen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarExamen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSOkto/EliminarExamen" message="tns:IWSOkto_EliminarExamen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSOkto/EliminarExamenResponse" message="tns:IWSOkto_EliminarExamen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarExamen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSOkto/ActualizarExamen" message="tns:IWSOkto_ActualizarExamen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSOkto/ActualizarExamenResponse" message="tns:IWSOkto_ActualizarExamen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarExamenbyId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSOkto/ConsultarExamenbyId" message="tns:IWSOkto_ConsultarExamenbyId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSOkto/ConsultarExamenbyIdResponse" message="tns:IWSOkto_ConsultarExamenbyId_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWSOkto" type="tns:IWSOkto">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AgregarExamen">
+      <soap:operation soapAction="http://tempuri.org/IWSOkto/AgregarExamen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTblExamens">
+      <soap:operation soapAction="http://tempuri.org/IWSOkto/GetTblExamens" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarExamen">
+      <soap:operation soapAction="http://tempuri.org/IWSOkto/ConsultarExamen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarExamen">
+      <soap:operation soapAction="http://tempuri.org/IWSOkto/EliminarExamen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarExamen">
+      <soap:operation soapAction="http://tempuri.org/IWSOkto/ActualizarExamen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarExamenbyId">
+      <soap:operation soapAction="http://tempuri.org/IWSOkto/ConsultarExamenbyId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceOkto">
+    <wsdl:port name="BasicHttpBinding_IWSOkto" binding="tns:BasicHttpBinding_IWSOkto">
+      <soap:address location="http://localhost:50703/WSOkto.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
