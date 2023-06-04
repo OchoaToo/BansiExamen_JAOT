@@ -84,6 +84,11 @@ namespace apiexamen
             return webService.ConsultarExamen(id, nombre, descripcion).ToList();
         }
 
+        public List<tblExamen> ConsultarExamen(int id)
+        {
+            return webService.ConsultarExamenbyId(id).ToList();
+        }
+
         public (bool, string) ActualizarExamen(int id, string nombre, string descripcion)
         {
             List<string> resultado = webService.ActualizarExamen(id, nombre, descripcion).ToList();
